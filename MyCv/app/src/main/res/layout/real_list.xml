@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity"
+    android:background="@drawable/my_gradient_drawable">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/titreReal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/light_blue"
+            android:background="@drawable/border"
+            android:text="Réalisations"
+            android:textSize="40dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/compTextHtml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Github:"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipGit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VivienS5"
+                android:textAlignment="center"
+                android:textColor="@color/dark_blue"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/compTextHtml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Site de reservation de chambre d'hotel"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/imgHotel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/hotel" />
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

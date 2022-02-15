@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titreExperi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/expe_gradient"
+            android:gravity="center"
+            android:text="Experience"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/expeText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="1dp"
+                android:text="Marché Saint-Pierre"
+                android:textColor="@color/light_blue"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/expeText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Aide résolution de problème sur le site internet"
+                android:textColor="@color/light_blue"
+                android:textSize="28dp" />
+
+            <TextView
+                android:id="@+id/expeText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Alternance 1 an en cours[2021-2022]"
+                android:textColor="@color/light_blue"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/expeText4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="SOSinformatique.com"
+                android:textColor="@color/orange"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/expeText5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Réparation éléctronique et maintenance réseau"
+                android:textColor="@color/orange"
+                android:textSize="28dp" />
+
+            <TextView
+                android:id="@+id/expeText6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="(Stage de 18 semaines)[2019-2021]"
+                android:textColor="@color/orange"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/expeText7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Groupama Gan Vie"
+                android:textColor="@color/green"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/expeText8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Développeur de macro en VBA"
+                android:textColor="@color/green"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/expeText9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="(Stage de 4 semaines)[2018-2019]"
+                android:textColor="@color/green"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/expeText10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Galeries Lafayette"
+                android:textColor="@color/gold"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/expeText11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Vente clientèle internationale, agencement de stands"
+                android:textColor="@color/gold"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/expeText12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="(Stage de 4 semaines)[2017-2018]"
+                android:textColor="@color/gold"
+                android:textSize="25dp"/>
+    </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+</LinearLayout>
